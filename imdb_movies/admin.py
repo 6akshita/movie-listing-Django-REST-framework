@@ -7,7 +7,7 @@ class MovieAdmin(admin.ModelAdmin):
     list_filter = ['genre']
     search_fields = ['name', 'director']
     delete_confirmation_template = ['genre']
-    fields = ['popularity', 'director', 'imdb_score', 'name']
+    #fields = ['popularity', 'director', 'imdb_score', 'name']
     pass
 
 
